@@ -3,10 +3,10 @@
 function get_salary($company)
 {
         /* Database INFO */
-	$servername = "localhost";
-	$username = "koyip1";
-	$password = "s4ewab";
-	$dbname = "koyip1_db";
+	$servername = "hwr4wkxs079mtb19.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+	$username = "rtxer3cimu54kkw0";
+	$password = "g3bvp3rd869mxauv";
+	$dbname = "jxnvoofbrh83mlkq";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
