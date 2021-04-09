@@ -3,10 +3,10 @@
 function get_salary($company, $salary)
 {
         /* Database INFO */
-	$servername = "localhost";
-	$username = "koyip1";
-	$password = "s4ewab";
-	$dbname = "koyip1_db";
+	$servername = "us-cdbr-east-03.cleardb.com";
+	$username = "b45059cd74e131";
+	$password = "76624f61";
+	$dbname = "heroku_422bace70db49be";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
