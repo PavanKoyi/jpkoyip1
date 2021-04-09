@@ -3,10 +3,10 @@
 function get_salary($company)
 {
         /* Database INFO*/
-	$servername = "hwr4wkxs079mtb19.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-	$username = "rtxer3cimu54kkw0";
-	$password = "g3bvp3rd869mxauv";
-	$dbname = "jxnvoofbrh83mlkq";
+	$servername = "us-cdbr-east-03.cleardb.com";
+	$username = "b45059cd74e131";
+	$password = "76624f61";
+	$dbname = "heroku_422bace70db49be";
 
         // Create connection
         $conn = new mysqli($servername, $username, $password, $dbname);
