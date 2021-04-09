@@ -2,7 +2,7 @@
 
 function get_salary($company)
 {
-        /* Database INFO */
+        /* Database INFO*/
 	$servername = "hwr4wkxs079mtb19.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
 	$username = "rtxer3cimu54kkw0";
 	$password = "g3bvp3rd869mxauv";
