@@ -2,7 +2,7 @@
 /* Database credentials. */
 define('DB_SERVER', 'us-cdbr-east-03.cleardb.com');
 define('DB_USERNAME', 'b45059cd74e131');
-define('DB_PASSWORD', '"76624f61');
+define('DB_PASSWORD', '76624f61');
 define('DB_NAME', 'heroku_422bace70db49be');
  
 /* Attempt to connect to MySQL database */
