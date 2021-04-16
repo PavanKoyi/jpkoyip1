@@ -34,7 +34,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                    // Bind result variables
                    mysqli_stmt_bind_result($stmt, $job, $salary);
                    if(mysqli_stmt_fetch($stmt)){
-                    $message = "Welcome Back!" .$salary;
+                    $message = "Welcome Back! The Salary for the requested company is : " .$salary;
                    }
                } else{
                    // Display an error message if company doesn't exist
